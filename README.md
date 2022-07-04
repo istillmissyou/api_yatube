@@ -48,13 +48,16 @@ python3 manage.py runserver
 
 ### Requests
 
-* api/v1/api-token-auth/ (POST): we pass the username and password, we get the token.
+* api/v1/jwt/create/ (POST): we pass the username and password, we get the JWT token.
+* api/v1/jwt/refresh/ (POST): updating the JWT token.
+* api/v1/jwt/verify/ (POST): checking the JWT token.
 * api/v1/posts/ (GET, POST): get a list of all posts or create a new post.
 * api/v1/posts/{post_id}/ (GET, PUT, PATCH, DELETE): get, edit or delete a post by id.
 * api/v1/groups/ (GET): get a list of all groups.
 * api/v1/groups/{group_id}/ (GET): get information about the group by id.
 * api/v1/posts/{post_id}/comments/ (GET, POST): get a list of all post comments with id=post_id or create a new one by specifying the id of the post we want to comment on.
 * api/v1/posts/{post_id}/comments/{comment_id}/ (GET, PUT, PATCH, DELETE): get, edit or delete a comment by the id of a post with id=post_id.
+* api/v1/follow/ (GET, POST): returns all subscriptions of the user who made the request or subscription of the user on whose behalf the request was made to the user transmitted in the request body.
 
 ##### dev Danil Shtun
 
