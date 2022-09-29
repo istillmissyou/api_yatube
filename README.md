@@ -7,7 +7,7 @@ This project is an api for Yatube.
 Clone the repository and go to it on the command line:
 
 ``
-the scoundrel is cloning https://github.com/istillmissyou/api_final_yatube .git
+the scoundrel is cloning https://github.com/istillmissyou/api_yatube .git
 ```
 
 ``
