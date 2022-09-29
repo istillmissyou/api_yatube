@@ -6,37 +6,37 @@ This project is an api for Yatube.
 
 Clone the repository and go to it on the command line:
 
-``
-the scoundrel is cloning https://github.com/istillmissyou/api_yatube .git
+```
+git clone https://github.com/istillmissyou/api_yatube.git
 ```
 
-``
+```
 cd api_final_yatube
 ```
 
 Create and activate a virtual environment:
 
-``
+```
 python3 -m venv env
 ```
 
-``
+```
 source env/bin/activate
 ```
 
-`
+```
 python3 -m pip install --update pip
 ```
 
 Install dependencies from a file requirements.txt:
 
-``
-installing pip -r requirements.txt
-``
+```
+pip install -r requirements.txt
+```
 
 Perform migrations:
 
-`
+```
 python3 manage.py migrate
 ```
 
